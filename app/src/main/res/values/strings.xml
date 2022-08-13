@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CardsApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="modules_count">%1$d модулей</string>
+    <string name="terms_count">%1$d терминов</string>
+    <string name="no_modules_press_to_add">Здесь пока ничего нет. Нажмите чтобы добавить модуль</string>
+    <string name="no_folders_press_to_add">Здесь пока ничего нет. Нажмите чтобы добавить папку</string>
+    <string name="modules">Модули</string>
+    <string name="folders">Папки</string>
+    <string name="see_all">Смотреть все</string>
+</resources>
