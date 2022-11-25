@@ -1,9 +1,11 @@
-package com.cardsapp
+package com.cardsapp.presentation
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.cardsapp.domain.FolderInfo
+import com.cardsapp.R
 import com.cardsapp.databinding.FolderHomeCardBinding
 
 class HomeFragmentFoldersAdapter :

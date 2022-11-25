@@ -1,12 +1,12 @@
-package com.cardsapp
+package com.cardsapp.presentation
 
 import android.graphics.drawable.Drawable
-import android.view.MenuItem
 import android.view.View
 import androidx.annotation.MenuRes
 import androidx.appcompat.widget.SearchView
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
+import com.cardsapp.R
 import com.cardsapp.databinding.SearchAndSelectionToolbarBinding
 
 class SearchAndSelectionToolbar(private val binding: SearchAndSelectionToolbarBinding) {

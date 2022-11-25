@@ -1,16 +1,13 @@
-package com.cardsapp
+package com.cardsapp.presentation
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.util.Log
 import android.view.LayoutInflater
-import android.view.Menu
-import android.view.View
-import android.widget.ImageButton
 import androidx.annotation.MenuRes
 import androidx.appcompat.widget.Toolbar
-import com.cardsapp.databinding.SearchAndSelectionToolbarBinding
+import com.cardsapp.R
 
 
 class SelectionToolbar(

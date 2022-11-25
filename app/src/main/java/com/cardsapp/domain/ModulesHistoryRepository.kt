@@ -1,4 +1,4 @@
-package com.cardsapp
+package com.cardsapp.domain
 
 interface ModulesHistoryRepository {
 

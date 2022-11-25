@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.cardsapp.HomeFragment"
+        android:name="com.cardsapp.presentation.HomeFragment"
         android:label="home_page"
         tools:layout="@layout/fragment_home" >
         <action
@@ -31,12 +31,12 @@
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/modulesFragment"
-        android:name="com.cardsapp.ModulesFragment"
+        android:name="com.cardsapp.presentation.ModulesFragment"
         android:label="fragment_modules"
         tools:layout="@layout/fragment_modules" />
     <fragment
         android:id="@+id/foldersFragment"
-        android:name="com.cardsapp.FoldersFragment"
+        android:name="com.cardsapp.presentation.FoldersFragment"
         android:label="fragment_folders"
         tools:layout="@layout/fragment_folders" />
 

@@ -1,4 +1,4 @@
-package com.cardsapp
+package com.cardsapp.presentation
 
 import android.os.Bundle
 import android.util.Log
@@ -10,6 +10,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearSnapHelper
 import by.kirich1409.viewbindingdelegate.viewBinding
+import com.cardsapp.domain.FolderInfo
+import com.cardsapp.domain.ModuleInfo
+import com.cardsapp.R
+import com.cardsapp.addDivider
 import com.cardsapp.databinding.FragmentHomeBinding
 import com.cardsapp.databinding.ModuleHomeCardBinding
 
@@ -27,7 +31,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         binding.allFolders.setOnClickListener { navigateToFoldersFragment() }
 
         observeFoldersInfo()
-        viewModel.getFoldersInfoList()
 
         observeLastModulesInfo()
         viewModel.getLastModulesInfoList(MAX_MODULES_COUNT)
